@@ -60,21 +60,25 @@
   padding: 20px;
 }
 
+.category-filter {
+  margin-bottom: 30px; 
+  padding: 20px; 
+}
 .category-filter ul li {
   display: flex;
   align-items: center;
-  margin-bottom: 20px; /* Reduce margin for smaller screens */
+  margin-bottom: 60px;
 }
 
 .category-filter ul li img {
-  width: 50px; /* Adjust width for smaller screens */
-  height: auto; /* Adjust height to maintain aspect ratio */
+  width: 70%;
+  height: 50%;
   object-fit: cover;
-  margin-right: 15px; /* Reduce margin for smaller screens */
+  margin-right: 30px;
 }
 
 .category-filter ul li span {
-  font-size: 16px; /* Reduce font size for smaller screens */
+  font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -85,7 +89,7 @@
 /* Responsive Styles */
 
 /* For Tablets and Up */
-@media (max-width: 768px) {
+@media (max-width: 568px) {
   .right-card {
     padding: 15px; /* Adjust padding for tablets */
   }
